@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    padding-left: 200px;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.navbar-brand:hover{
+
+    opacity: 0.7;
+
+}
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 200px;
+    font-size: 120%;
+}
+.sections{
+    background-color: rgb(255, 255, 255);
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 700px;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.section1{
+    background-color: rgb(239, 239, 239);
+    padding: 20px;
+}
+.title-perfil{
+    border-bottom: 2px solid black;
+    padding-bottom:5px;
+}
+.repositorio-titles{
+    color: rgb(2, 216, 216);
+}
+.tags{
+    display: flex;
+    flex-direction: row;
+}
+.topicos{
+    background-color:cornflowerblue;
+    width: 100px;
+    height: 30px;
+    padding:20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin:10px;
+    border-radius: 15px;
+    padding-left: 30px;
+}
+#star{
+    padding-left: 90vh;
+}
+#star:hover{
+    color: yellow;
+}
+#person{
+    padding-left: 89vh;
+    color: blue;
+}
+.logo-git{
+    display: flex;
+}
+#logo-git{
+    font-size: 18px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+@media screen and (max-width:900px){
+    .collapse{
+        display: block;
+        padding-right: 5px;
+    }
+    .navbar-brand{
+
+        padding-left: 5px;
+    
+    }
+}
+@media screen and (min-width:901px) and (max-width:1200px){
+.fa-solid{
+    padding-left:100px;
+}
+.collapse{
+    display: block;
+    padding-right: 5px;
+}
+.navbar-brand{
+
+    padding-left: 5px;
+
+}
+#star{
+    padding-left: 70vh;
+}
+#person{
+    padding-left: 70vh;
+}
+}
+@media screen and (max-width:900px){
+    #star{
+        padding-left: 40vh;
+    }
+    #person{
+        padding-left: 40vh;
+    }
+}
+@media screen and (max-width:500px){
+    #star{
+        padding-left: 20vh;
+    }
+    #person{
+        padding-left: 20vh;
+    }
+}
